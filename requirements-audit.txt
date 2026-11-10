@@ -1,0 +1,2 @@
+# Optional exact mathematical spot checks. Core build/evaluation use the standard library.
+sympy==1.14.0

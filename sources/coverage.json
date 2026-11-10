@@ -1,0 +1,709 @@
+{
+  "documents": 138,
+  "indexed_question_papers": 42,
+  "papers": [
+    {
+      "source_id": "CMC2019_MathA",
+      "path": "sources/pdf/CMC2019_MathA.pdf",
+      "indexed_problem_occurrences": 3
+    },
+    {
+      "source_id": "CMC2019_MathA_solutions",
+      "path": "sources/pdf/CMC2019_MathA_solutions.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "CMC2019_MathB",
+      "path": "sources/pdf/CMC2019_MathB.pdf",
+      "indexed_problem_occurrences": 5
+    },
+    {
+      "source_id": "CMC2019_MathB_solutions",
+      "path": "sources/pdf/CMC2019_MathB_solutions.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "CMC2019_NonMath",
+      "path": "sources/pdf/CMC2019_NonMath.pdf",
+      "indexed_problem_occurrences": 3
+    },
+    {
+      "source_id": "CMC2020_MathA",
+      "path": "sources/pdf/CMC2020_MathA.pdf",
+      "indexed_problem_occurrences": 5
+    },
+    {
+      "source_id": "CMC2020_MathB",
+      "path": "sources/pdf/CMC2020_MathB.pdf",
+      "indexed_problem_occurrences": 5
+    },
+    {
+      "source_id": "CMC2020_NonMath",
+      "path": "sources/pdf/CMC2020_NonMath.pdf",
+      "indexed_problem_occurrences": 3
+    },
+    {
+      "source_id": "CMC2025_MathA",
+      "path": "sources/pdf/CMC2025_MathA.pdf",
+      "indexed_problem_occurrences": 6
+    },
+    {
+      "source_id": "CMC2025_MathB",
+      "path": "sources/pdf/CMC2025_MathB.pdf",
+      "indexed_problem_occurrences": 6
+    },
+    {
+      "source_id": "CMC2025_NonMathA",
+      "path": "sources/pdf/CMC2025_NonMathA.pdf",
+      "indexed_problem_occurrences": 10
+    },
+    {
+      "source_id": "CMC2025_NonMathB",
+      "path": "sources/pdf/CMC2025_NonMathB.pdf",
+      "indexed_problem_occurrences": 10
+    },
+    {
+      "source_id": "ARC001",
+      "path": "sources/pdf/ARC001.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC002",
+      "path": "sources/pdf/ARC002.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC003",
+      "path": "sources/pdf/ARC003.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC004",
+      "path": "sources/pdf/ARC004.pdf",
+      "indexed_problem_occurrences": 12
+    },
+    {
+      "source_id": "ARC005",
+      "path": "sources/pdf/ARC005.pdf",
+      "indexed_problem_occurrences": 6
+    },
+    {
+      "source_id": "ARC006",
+      "path": "sources/pdf/ARC006.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC007",
+      "path": "sources/pdf/ARC007.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC008",
+      "path": "sources/pdf/ARC008.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC009",
+      "path": "sources/pdf/ARC009.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC010",
+      "path": "sources/pdf/ARC010.pdf",
+      "indexed_problem_occurrences": 10
+    },
+    {
+      "source_id": "ARC011",
+      "path": "sources/pdf/ARC011.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC012",
+      "path": "sources/pdf/ARC012.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC013",
+      "path": "sources/pdf/ARC013.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC014",
+      "path": "sources/pdf/ARC014.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC015",
+      "path": "sources/pdf/ARC015.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC016",
+      "path": "sources/pdf/ARC016.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC017",
+      "path": "sources/pdf/ARC017.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC018",
+      "path": "sources/pdf/ARC018.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC019",
+      "path": "sources/pdf/ARC019.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC020",
+      "path": "sources/pdf/ARC020.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC021",
+      "path": "sources/pdf/ARC021.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC022",
+      "path": "sources/pdf/ARC022.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC023",
+      "path": "sources/pdf/ARC023.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC024",
+      "path": "sources/pdf/ARC024.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC025",
+      "path": "sources/pdf/ARC025.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC026",
+      "path": "sources/pdf/ARC026.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC027",
+      "path": "sources/pdf/ARC027.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC028",
+      "path": "sources/pdf/ARC028.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC029",
+      "path": "sources/pdf/ARC029.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC030",
+      "path": "sources/pdf/ARC030.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC031",
+      "path": "sources/pdf/ARC031.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC032",
+      "path": "sources/pdf/ARC032.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC033",
+      "path": "sources/pdf/ARC033.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC034",
+      "path": "sources/pdf/ARC034.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC035",
+      "path": "sources/pdf/ARC035.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC036",
+      "path": "sources/pdf/ARC036.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC037",
+      "path": "sources/pdf/ARC037.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC038",
+      "path": "sources/pdf/ARC038.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC039",
+      "path": "sources/pdf/ARC039.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC040",
+      "path": "sources/pdf/ARC040.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC041",
+      "path": "sources/pdf/ARC041.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC042",
+      "path": "sources/pdf/ARC042.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC043",
+      "path": "sources/pdf/ARC043.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC044",
+      "path": "sources/pdf/ARC044.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC045",
+      "path": "sources/pdf/ARC045.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC046",
+      "path": "sources/pdf/ARC046.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC047",
+      "path": "sources/pdf/ARC047.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC048",
+      "path": "sources/pdf/ARC048.pdf",
+      "indexed_problem_occurrences": 7
+    },
+    {
+      "source_id": "ARC049",
+      "path": "sources/pdf/ARC049.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC050",
+      "path": "sources/pdf/ARC050.pdf",
+      "indexed_problem_occurrences": 12
+    },
+    {
+      "source_id": "ARC051",
+      "path": "sources/pdf/ARC051.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC052",
+      "path": "sources/pdf/ARC052.pdf",
+      "indexed_problem_occurrences": 11
+    },
+    {
+      "source_id": "ARC053",
+      "path": "sources/pdf/ARC053.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC054",
+      "path": "sources/pdf/ARC054.pdf",
+      "indexed_problem_occurrences": 6
+    },
+    {
+      "source_id": "ARC055",
+      "path": "sources/pdf/ARC055.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC056",
+      "path": "sources/pdf/ARC056.pdf",
+      "indexed_problem_occurrences": 8
+    },
+    {
+      "source_id": "ARC057",
+      "path": "sources/pdf/ARC057.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC058",
+      "path": "sources/pdf/ARC058.pdf",
+      "indexed_problem_occurrences": 9
+    },
+    {
+      "source_id": "ARC059",
+      "path": "sources/pdf/ARC059.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC060",
+      "path": "sources/pdf/ARC060.pdf",
+      "indexed_problem_occurrences": 10
+    },
+    {
+      "source_id": "ARC061",
+      "path": "sources/pdf/ARC061.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC062",
+      "path": "sources/pdf/ARC062.pdf",
+      "indexed_problem_occurrences": 7
+    },
+    {
+      "source_id": "ARC063",
+      "path": "sources/pdf/ARC063.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC064",
+      "path": "sources/pdf/ARC064.pdf",
+      "indexed_problem_occurrences": 7
+    },
+    {
+      "source_id": "ARC065",
+      "path": "sources/pdf/ARC065.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC066",
+      "path": "sources/pdf/ARC066.pdf",
+      "indexed_problem_occurrences": 8
+    },
+    {
+      "source_id": "ARC067",
+      "path": "sources/pdf/ARC067.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC068",
+      "path": "sources/pdf/ARC068.pdf",
+      "indexed_problem_occurrences": 9
+    },
+    {
+      "source_id": "ARC069",
+      "path": "sources/pdf/ARC069.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC070",
+      "path": "sources/pdf/ARC070.pdf",
+      "indexed_problem_occurrences": 4
+    },
+    {
+      "source_id": "ARC071",
+      "path": "sources/pdf/ARC071.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC072",
+      "path": "sources/pdf/ARC072.pdf",
+      "indexed_problem_occurrences": 6
+    },
+    {
+      "source_id": "ARC073",
+      "path": "sources/pdf/ARC073.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC074",
+      "path": "sources/pdf/ARC074.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC075",
+      "path": "sources/pdf/ARC075.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC076",
+      "path": "sources/pdf/ARC076.pdf",
+      "indexed_problem_occurrences": 11
+    },
+    {
+      "source_id": "ARC077",
+      "path": "sources/pdf/ARC077.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC078",
+      "path": "sources/pdf/ARC078.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC079",
+      "path": "sources/pdf/ARC079.pdf",
+      "indexed_problem_occurrences": 11
+    },
+    {
+      "source_id": "ARC080",
+      "path": "sources/pdf/ARC080.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC081",
+      "path": "sources/pdf/ARC081.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC082",
+      "path": "sources/pdf/ARC082.pdf",
+      "indexed_problem_occurrences": 6
+    },
+    {
+      "source_id": "ARC083",
+      "path": "sources/pdf/ARC083.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC084",
+      "path": "sources/pdf/ARC084.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC085",
+      "path": "sources/pdf/ARC085.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC086",
+      "path": "sources/pdf/ARC086.pdf",
+      "indexed_problem_occurrences": 10
+    },
+    {
+      "source_id": "ARC087",
+      "path": "sources/pdf/ARC087.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC088",
+      "path": "sources/pdf/ARC088.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC089",
+      "path": "sources/pdf/ARC089.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC090",
+      "path": "sources/pdf/ARC090.pdf",
+      "indexed_problem_occurrences": 14
+    },
+    {
+      "source_id": "ARC091",
+      "path": "sources/pdf/ARC091.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC092",
+      "path": "sources/pdf/ARC092.pdf",
+      "indexed_problem_occurrences": 6
+    },
+    {
+      "source_id": "ARC093",
+      "path": "sources/pdf/ARC093.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC094",
+      "path": "sources/pdf/ARC094.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC095",
+      "path": "sources/pdf/ARC095.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC096",
+      "path": "sources/pdf/ARC096.pdf",
+      "indexed_problem_occurrences": 10
+    },
+    {
+      "source_id": "ARC097",
+      "path": "sources/pdf/ARC097.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC098",
+      "path": "sources/pdf/ARC098.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC099",
+      "path": "sources/pdf/ARC099.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC100",
+      "path": "sources/pdf/ARC100.pdf",
+      "indexed_problem_occurrences": 13
+    },
+    {
+      "source_id": "ARC101",
+      "path": "sources/pdf/ARC101.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC102",
+      "path": "sources/pdf/ARC102.pdf",
+      "indexed_problem_occurrences": 6
+    },
+    {
+      "source_id": "ARC103",
+      "path": "sources/pdf/ARC103.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC104",
+      "path": "sources/pdf/ARC104.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC105",
+      "path": "sources/pdf/ARC105.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC106",
+      "path": "sources/pdf/ARC106.pdf",
+      "indexed_problem_occurrences": 10
+    },
+    {
+      "source_id": "ARC107",
+      "path": "sources/pdf/ARC107.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC108",
+      "path": "sources/pdf/ARC108.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC109",
+      "path": "sources/pdf/ARC109.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC110",
+      "path": "sources/pdf/ARC110.pdf",
+      "indexed_problem_occurrences": 13
+    },
+    {
+      "source_id": "ARC111",
+      "path": "sources/pdf/ARC111.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC112",
+      "path": "sources/pdf/ARC112.pdf",
+      "indexed_problem_occurrences": 6
+    },
+    {
+      "source_id": "ARC113",
+      "path": "sources/pdf/ARC113.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC114",
+      "path": "sources/pdf/ARC114.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC115",
+      "path": "sources/pdf/ARC115.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC116",
+      "path": "sources/pdf/ARC116.pdf",
+      "indexed_problem_occurrences": 9
+    },
+    {
+      "source_id": "ARC117",
+      "path": "sources/pdf/ARC117.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC118",
+      "path": "sources/pdf/ARC118.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC119",
+      "path": "sources/pdf/ARC119.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC120",
+      "path": "sources/pdf/ARC120.pdf",
+      "indexed_problem_occurrences": 13
+    },
+    {
+      "source_id": "ARC121",
+      "path": "sources/pdf/ARC121.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC122",
+      "path": "sources/pdf/ARC122.pdf",
+      "indexed_problem_occurrences": 6
+    },
+    {
+      "source_id": "ARC123",
+      "path": "sources/pdf/ARC123.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC124",
+      "path": "sources/pdf/ARC124.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC125",
+      "path": "sources/pdf/ARC125.pdf",
+      "indexed_problem_occurrences": 0
+    },
+    {
+      "source_id": "ARC126",
+      "path": "sources/pdf/ARC126.pdf",
+      "indexed_problem_occurrences": 10
+    }
+  ],
+  "exclusions": [
+    {
+      "source_id": "ARC116",
+      "number": "VI",
+      "reason": "印刷版本周期2、3不能推出常数：sin(2πx)为反例；待核对是否遗漏根号。"
+    },
+    {
+      "source_id": "ARC066",
+      "number": "I-2",
+      "reason": "幂与乘法的排版归属不明确，不能可靠标准化。"
+    }
+  ],
+  "warning": "Source document coverage is distinct from structured problem coverage."
+}

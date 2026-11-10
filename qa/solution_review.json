@@ -1,0 +1,39 @@
+{
+  "n_items": 333,
+  "n_inline_full_solutions": 333,
+  "human_certified_items": 0,
+  "review_status": "single_agent_reviewed_not_human_certified",
+  "review_scope": "Historical reference proofs visually compared to source pages and rewritten with complete derivations; selected identities checked separately in math_audit.json. No formal proof certification.",
+  "normalization_notes": [
+    {
+      "id": "CMC-2011-FINAL-NonMath-V",
+      "statement_or_solution_note": "明确原题隐函数求导的常规条件及在奇异点的连续延拓；原点处不能要求该方程唯一确定z，故使用稠密常规点的分支表述。",
+      "source_id": "ARC066"
+    },
+    {
+      "id": "CMC-2011-PRE-NonMath-V",
+      "statement_or_solution_note": "将原题“确定隐函数”的通常非退化条件F_u+F_v≠0与xy≠0显式写出。",
+      "source_id": "ARC068"
+    },
+    {
+      "id": "CMC-2015-FINAL-MathSenior-VIII",
+      "statement_or_solution_note": "题面第二问已对照ARC100第2页确认为二次多项式；解答使用二次精确求积独立推导，未采用解答转载中含三次项的候选。",
+      "source_id": "ARC100"
+    },
+    {
+      "id": "CMC-2015-PRE-NonMath-III",
+      "statement_or_solution_note": "按ARC105第2页的原题公式写出f′=αf+βf″。",
+      "source_id": "ARC106"
+    },
+    {
+      "id": "CMC-2018-FINAL-MathSenior-I-1",
+      "statement_or_solution_note": "按原始试卷ARC004第1页恢复给出矩阵A的要求；答案并不唯一，应按对称性及行空间核验。",
+      "source_id": "ARC004"
+    },
+    {
+      "id": "CMC-2018-FINAL-MathSenior-I-2",
+      "statement_or_solution_note": "原始试卷ARC004第1页为C¹[0,1)；保留右端开区间以免加入不可能的端点可导性要求。",
+      "source_id": "ARC004"
+    }
+  ]
+}

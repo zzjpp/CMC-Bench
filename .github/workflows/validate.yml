@@ -1,0 +1,39 @@
+name: Validate benchmark
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/check.py
+      - name: Check deterministic regeneration
+        run: |
+          python tools/build.py
+          git diff --exit-code -- data splits statistics.json taxonomy.json CATALOG.md latex sources/coverage.json
+      - name: Verify source package
+        run: python tools/package.py
+  retain-current-validation:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Retain the current main validation
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          CURRENT_RUN: ${{ github.run_id }}
+        run: |
+          gh api --paginate "repos/$GH_REPO/actions/runs?branch=main&event=push&status=completed&per_page=100" \
+            --jq ".workflow_runs[] | select(.id < $CURRENT_RUN) | .id" > "$RUNNER_TEMP/completed-runs.txt"
+          while read -r run_id; do
+            gh api --method DELETE "repos/$GH_REPO/actions/runs/$run_id"
+          done < "$RUNNER_TEMP/completed-runs.txt"

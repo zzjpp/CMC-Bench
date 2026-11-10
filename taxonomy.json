@@ -1,0 +1,30 @@
+{
+  "abilities": {
+    "Mathematical Knowledge": "数学知识掌握",
+    "Mathematical Computation": "数学计算能力",
+    "Mathematical Reasoning": "数学推理能力",
+    "Mathematical Proof": "数学证明能力",
+    "Mathematical Generalization": "数学迁移能力"
+  },
+  "difficulty_levels": {
+    "1": "直接应用",
+    "2": "常规计算",
+    "3": "多步应用",
+    "4": "综合推理",
+    "5": "关键技巧",
+    "6": "深入证明",
+    "7": "复杂构造与综合",
+    "8": "高阶挑战"
+  },
+  "difficulty_descriptors": {
+    "1": "识别定义或直接使用一个标准公式，计算链短。",
+    "2": "标准方法明确，需若干计算或一次常规变换。",
+    "3": "需选择并衔接多个常规步骤，检查适用条件。",
+    "4": "跨知识点综合，含辅助量、误差控制或非直接推导。",
+    "5": "有明显方法发现门槛，需关键构造或细致论证。",
+    "6": "较长的证明链、边界处理或非平凡反例和最优性论证。",
+    "7": "复杂构造、多层分类或跨方法综合，完整性要求高。",
+    "8": "高阶理论与非直接构造结合，含锐界、反演或多阶段全局论证。"
+  },
+  "generalization": "Proxy labels only; true transfer needs a separate controlled study"
+}

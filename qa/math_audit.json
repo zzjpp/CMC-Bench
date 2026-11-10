@@ -1,0 +1,233 @@
+{
+  "sympy_version": "1.14.0",
+  "checks": [
+    {
+      "item": "2019 NonMath I-3 antiderivative",
+      "claim": "symbolic identity",
+      "passed": true
+    },
+    {
+      "item": "2025 NonMathB I-1",
+      "claim": "exact second derivative",
+      "passed": true
+    },
+    {
+      "item": "2025 shared plane",
+      "claim": "two independent normal constraints",
+      "passed": true
+    },
+    {
+      "item": "2025 NonMathA I-1",
+      "claim": "symbolic limit",
+      "passed": true
+    },
+    {
+      "item": "2025 NonMathB I-5",
+      "claim": "exact improper integral",
+      "passed": true
+    },
+    {
+      "item": "2025 shared ODE regular branch",
+      "claim": "substitution into original equation via z=cos(y)",
+      "passed": true
+    },
+    {
+      "item": "2025 shared ODE constant branch",
+      "claim": "cos(y)=0 solves original equation",
+      "passed": true
+    },
+    {
+      "item": "2025 NonMathB III stationary points",
+      "claim": "exact surface, implicit regularity and Hessian signs",
+      "passed": true
+    },
+    {
+      "item": "2025 NonMathB II area",
+      "claim": "exact surface-area integration",
+      "passed": true
+    },
+    {
+      "item": "2020 MathB VI weights",
+      "claim": "exact integral constants in proof",
+      "passed": true
+    },
+    {
+      "item": "2025 shared matrix determinant construction",
+      "claim": "12 exact rational instances across independent m,n, including zero determinants",
+      "passed": true
+    },
+    {
+      "item": "2025 shared Fourier fourth moment",
+      "claim": "finite exact count sanity checks; general proof remains in reference",
+      "passed": true
+    },
+    {
+      "item": "2020 MathA I tetrahedron volume",
+      "claim": "exact mixed product",
+      "passed": true
+    },
+    {
+      "item": "CMC-2015-PRE-Math-II",
+      "claim": "det A=1/24",
+      "passed": true
+    },
+    {
+      "item": "CMC-2009-PRE-NonMath-I-1",
+      "claim": "beta integral 16/15",
+      "passed": true
+    },
+    {
+      "item": "CMC-2014-PRE-NonMath-IV",
+      "claim": "cap flux 33√3π",
+      "passed": true
+    },
+    {
+      "item": "CMC-2015-PRE-NonMath-I-3",
+      "claim": "paraboloid volume π/2",
+      "passed": true
+    },
+    {
+      "item": "CMC-2016-PRE-NonMath-III",
+      "claim": "ellipsoid mass 5π/(3√2)",
+      "passed": true
+    },
+    {
+      "item": "CMC-2013-FINAL-MathSenior-II",
+      "claim": "orthogonal quadratic form eigenvalues",
+      "passed": true
+    },
+    {
+      "item": "CMC-2013-PRE-NonMath-V",
+      "claim": "minimum flux",
+      "passed": true
+    },
+    {
+      "item": "CMC-2018-PRE-NonMath-IV",
+      "claim": "sphere difference integral 256π/3",
+      "passed": true
+    },
+    {
+      "item": "CMC-2015-FINAL-MathSenior-VIII",
+      "claim": "power 3 Radau error",
+      "passed": true
+    },
+    {
+      "item": "CMC-2015-FINAL-MathSenior-VIII",
+      "claim": "power 3 lower-polynomial contact",
+      "passed": true
+    },
+    {
+      "item": "CMC-2015-FINAL-MathSenior-VIII",
+      "claim": "power 4 Radau error",
+      "passed": true
+    },
+    {
+      "item": "CMC-2015-FINAL-MathSenior-VIII",
+      "claim": "power 4 lower-polynomial contact",
+      "passed": true
+    },
+    {
+      "item": "CMC-2010-FINAL-NonMath-I-3",
+      "claim": "parametric second derivative",
+      "passed": true
+    },
+    {
+      "item": "CMC-2018-FINAL-MathSenior-I-4",
+      "claim": "constant 3x3 block impossible",
+      "passed": true
+    },
+    {
+      "item": "CMC-2009-FINAL-NonMath-VII",
+      "claim": "unique fixed point and negative derivative",
+      "passed": true
+    },
+    {
+      "item": "CMC-2017-FINAL-MathSenior-I-1",
+      "claim": "recursive rank",
+      "passed": true
+    },
+    {
+      "item": "CMC-2016-PRE-NonMath-I-4",
+      "claim": "fourth derivative",
+      "passed": true
+    },
+    {
+      "item": "CMC-2017-PRE-NonMath-III",
+      "claim": "space curve integral",
+      "passed": true
+    },
+    {
+      "item": "CMC-2012-PRE-Math-V",
+      "claim": "binomial sum closed form",
+      "passed": true
+    },
+    {
+      "item": "CMC-2015-PRE-Math-I",
+      "claim": "both orthogonality equations",
+      "passed": true
+    },
+    {
+      "item": "CMC-2018-FINAL-MathSenior-I-1",
+      "claim": "example is symmetric with required row space",
+      "passed": true
+    },
+    {
+      "item": "CMC-2012-PRE-NonMath-I-2",
+      "claim": "both candidate planes meet line-angle and point constraints",
+      "passed": true
+    },
+    {
+      "item": "CMC-2017-PRE-Math-V",
+      "claim": "Riemann sum integral constant",
+      "passed": true
+    },
+    {
+      "item": "CMC-2017-FINAL-MathSenior-I-2",
+      "claim": "logarithm difference limit",
+      "passed": true
+    },
+    {
+      "item": "CMC-2018-PRE-NonMath-I-3",
+      "claim": "antiderivative on real line",
+      "passed": true
+    },
+    {
+      "item": "CMC-2017-PRE-NonMath-I-5",
+      "claim": "antiderivative",
+      "passed": true
+    },
+    {
+      "item": "CMC-2016-FINAL-MathSenior-VIII",
+      "claim": "general RK3 parameter family order conditions",
+      "passed": true
+    },
+    {
+      "item": "CMC-2016-FINAL-MathSenior-VIII",
+      "claim": "both degenerate RK3 parameter families",
+      "passed": true
+    },
+    {
+      "item": "CMC-2016-FINAL-MathSenior-VIII",
+      "claim": "imaginary-axis stability boundary",
+      "passed": true
+    },
+    {
+      "item": "CMC-2017-FINAL-MathSenior-X",
+      "claim": "uniform minimum-plus-maximum density normalizes",
+      "passed": true
+    },
+    {
+      "item": "CMC-2018-FINAL-MathSenior-VII",
+      "claim": "umbilic first/second form proportionality",
+      "passed": true
+    },
+    {
+      "item": "CMC-2018-FINAL-MathSenior-II",
+      "claim": "orthogonal surface coordinates",
+      "passed": true
+    }
+  ],
+  "n_checks": 45,
+  "all_passed": true,
+  "scope": "Selected exact mathematical checks; not full-corpus proof certification or model scores."
+}

@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "total": 333,
+  "counts_by_split": {
+    "dev": 207,
+    "validation": 44,
+    "test": 82
+  },
+  "counts_by_difficulty": {
+    "1": 12,
+    "2": 59,
+    "3": 45,
+    "4": 80,
+    "5": 56,
+    "6": 43,
+    "7": 31,
+    "8": 7
+  },
+  "counts_by_split_and_difficulty": {
+    "dev": {
+      "1": 7,
+      "2": 35,
+      "3": 29,
+      "4": 51,
+      "5": 36,
+      "6": 24,
+      "7": 20,
+      "8": 5
+    },
+    "validation": {
+      "1": 3,
+      "2": 8,
+      "3": 7,
+      "4": 9,
+      "5": 8,
+      "6": 5,
+      "7": 3,
+      "8": 1
+    },
+    "test": {
+      "1": 2,
+      "2": 16,
+      "3": 9,
+      "4": 20,
+      "5": 12,
+      "6": 14,
+      "7": 8,
+      "8": 1
+    }
+  },
+  "counts_by_subject": {
+    "解析几何": 29,
+    "高等代数": 49,
+    "数学分析": 210,
+    "常微分方程": 9,
+    "数值分析": 6,
+    "概率统计": 6,
+    "复分析": 6,
+    "实分析": 6,
+    "微分几何": 6,
+    "抽象代数": 6
+  },
+  "counts_by_ability": {
+    "Mathematical Knowledge": 333,
+    "Mathematical Computation": 166,
+    "Mathematical Reasoning": 318,
+    "Mathematical Proof": 169,
+    "Mathematical Generalization": 36
+  },
+  "counts_by_stage": {
+    "预赛": 212,
+    "决赛": 121
+  },
+  "counts_by_track": {
+    "Math": 80,
+    "NonMath": 133,
+    "MathSenior": 76,
+    "MathA": 12,
+    "MathB": 16,
+    "NonMathA": 7,
+    "NonMathB": 9
+  },
+  "counts_by_year": {
+    "2009": 29,
+    "2010": 33,
+    "2011": 31,
+    "2012": 21,
+    "2013": 27,
+    "2014": 29,
+    "2015": 29,
+    "2016": 28,
+    "2017": 29,
+    "2018": 27,
+    "2019": 11,
+    "2020": 13,
+    "2025": 26
+  },
+  "year_semantics": "competition_cycle_preliminary_year; finals may occur next calendar year",
+  "merged_source_occurrences": 9,
+  "heldout_is_public": true,
+  "empirical_difficulty_calibrated": false,
+  "baseline_inference_calls": 0,
+  "human_certified_items": 0,
+  "inline_full_solutions": 333,
+  "scope": "Source-backed CMC benchmark; not exhaustive and not official"
+}

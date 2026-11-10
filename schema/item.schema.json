@@ -1,0 +1,436 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zzjpp/CMC-Bench/schema/item.schema.json",
+  "title": "CMC-Bench item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "year",
+    "category",
+    "track",
+    "stage",
+    "title",
+    "question",
+    "question_latex",
+    "question_format",
+    "subject",
+    "knowledge_points",
+    "prerequisites",
+    "ability_tags",
+    "ability_evidence",
+    "difficulty",
+    "difficulty_annotation",
+    "task_type",
+    "reference_solution",
+    "final_answer",
+    "scoring_rubric",
+    "score_max",
+    "critical_errors",
+    "verification_method",
+    "verification_status",
+    "source",
+    "source_occurrences",
+    "split",
+    "family_id",
+    "aliases",
+    "model_exposure",
+    "generalization_status",
+    "assets",
+    "notes",
+    "statement_sha256",
+    "reference_solution_format"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^CMC-[0-9]{4}-(PRE|FINAL)-(Math|MathA|MathB|MathJunior|MathSenior|NonMath|NonMathA|NonMathB)-[IVX]+(-[0-9]+)?$"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 2009
+    },
+    "category": {
+      "enum": [
+        "数学类",
+        "非数学类"
+      ]
+    },
+    "track": {
+      "enum": [
+        "MathA",
+        "MathB",
+        "NonMath",
+        "NonMathA",
+        "NonMathB",
+        "Math",
+        "MathJunior",
+        "MathSenior"
+      ]
+    },
+    "stage": {
+      "enum": [
+        "预赛",
+        "决赛"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question_latex": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question_format": {
+      "type": "string"
+    },
+    "subject": {
+      "enum": [
+        "数学分析",
+        "高等代数",
+        "解析几何",
+        "常微分方程",
+        "实分析",
+        "复分析",
+        "抽象代数",
+        "微分几何",
+        "概率统计",
+        "数值分析"
+      ]
+    },
+    "knowledge_points": {
+      "$ref": "#/$defs/strings"
+    },
+    "prerequisites": {
+      "$ref": "#/$defs/strings"
+    },
+    "ability_tags": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/ability"
+      }
+    },
+    "ability_evidence": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 8
+    },
+    "difficulty_annotation": {
+      "type": "object",
+      "required": [
+        "label",
+        "status",
+        "labeler",
+        "human_reviewers",
+        "empirical_success_rate",
+        "empirical_sample_size",
+        "rationale",
+        "uncertainty"
+      ],
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "status": {
+          "const": "provisional_structural"
+        },
+        "labeler": {
+          "type": "string"
+        },
+        "human_reviewers": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "empirical_success_rate": {
+          "type": "null"
+        },
+        "empirical_sample_size": {
+          "const": 0
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "uncertainty": {
+          "type": "string"
+        }
+      }
+    },
+    "task_type": {
+      "enum": [
+        "short_answer",
+        "multipart_or_proof"
+      ]
+    },
+    "reference_solution": {
+      "type": "string",
+      "minLength": 1
+    },
+    "final_answer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scoring_rubric": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "ability",
+          "points",
+          "evidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "ability": {
+            "$ref": "#/$defs/ability"
+          },
+          "points": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "score_max": {
+      "const": 4
+    },
+    "critical_errors": {
+      "$ref": "#/$defs/strings"
+    },
+    "verification_method": {
+      "$ref": "#/$defs/strings"
+    },
+    "verification_status": {
+      "enum": [
+        "single_agent_reviewed_not_human_certified",
+        "source_backed_not_independently_certified"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "path",
+        "url",
+        "source_type",
+        "sha256",
+        "page_one_based",
+        "original_number"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source_type": {
+          "enum": [
+            "university_hosted_reprint",
+            "third_party_reprint",
+            "community_hosted_original_paper_reprint"
+          ]
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha"
+        },
+        "page_one_based": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "original_number": {
+          "type": "string"
+        }
+      }
+    },
+    "source_occurrences": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "number",
+          "page_one_based",
+          "relation"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "number": {
+            "type": "string"
+          },
+          "page_one_based": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "relation": {
+            "enum": [
+              "canonical",
+              "identical",
+              "assisted_variant"
+            ]
+          }
+        }
+      }
+    },
+    "split": {
+      "enum": [
+        "dev",
+        "validation",
+        "test"
+      ]
+    },
+    "family_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "model_exposure": {
+      "type": "string"
+    },
+    "generalization_status": {
+      "enum": [
+        "not_assessed",
+        "method_application_proxy_only_not_measured_transfer"
+      ]
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "role",
+          "source_page_one_based",
+          "contains_solution"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "role": {
+            "const": "optional_problem_figure"
+          },
+          "source_page_one_based": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "contains_solution": {
+            "const": false
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    },
+    "statement_sha256": {
+      "$ref": "#/$defs/sha"
+    },
+    "reference_solution_format": {
+      "const": "inline_full_solution"
+    },
+    "solution_source": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "path",
+        "sha256",
+        "original_number",
+        "pages_one_based",
+        "page_scope",
+        "role"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha"
+        },
+        "original_number": {
+          "type": "string"
+        },
+        "pages_one_based": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "page_scope": {
+          "type": "string"
+        },
+        "role": {
+          "const": "evaluator_only_full_original_solution"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "strings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "sha": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "ability": {
+      "enum": [
+        "Mathematical Knowledge",
+        "Mathematical Computation",
+        "Mathematical Reasoning",
+        "Mathematical Proof",
+        "Mathematical Generalization"
+      ]
+    }
+  }
+}
